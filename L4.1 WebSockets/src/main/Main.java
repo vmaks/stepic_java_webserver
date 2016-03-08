@@ -31,6 +31,10 @@ public class Main {
         server.setHandler(handlers);
 
         server.start();
+
+//        System.out.println("Server started");
+        java.util.logging.Logger.getGlobal().info("Server started");
+
         server.join();
     }
 }
